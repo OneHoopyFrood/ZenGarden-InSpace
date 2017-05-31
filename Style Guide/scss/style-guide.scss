@@ -1,0 +1,24 @@
+
+@import 'partials/prefix-mixins';
+@import 'partials/layout'; // Responsive grid and media queries
+
+// Establish basic variables
+
+// Colors
+$color-1: #323C47; // Space Blue
+$color-2: #081F2D; // Dark Blue
+$color-3: #FAF9D9; // Star Yellow
+$color-4: #e6e6e6; // Light Grey
+$color-5: #ffffff; // White
+
+// Fonts
+$primary-font: 'Raleway', sans-serif;
+$secondary-font: 'Arvo', serif;
+
+// Import Sections
+@import 'partials/colors';
+@import 'partials/branding';
+@import 'partials/typography';
+@import 'partials/navigation';
+@import 'partials/icons';
+@import 'partials/styleguide-styles';

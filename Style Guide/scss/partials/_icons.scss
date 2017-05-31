@@ -1,0 +1,50 @@
+/* --------------------------------
+
+xIcons
+
+-------------------------------- */
+
+$icon-size: 50px;
+
+.cd-icons {
+	li {
+		display: inline-block;
+		background-position: center center;
+		background-repeat: no-repeat;
+		margin: 1em;
+		width: $icon-size;
+		height: $icon-size;
+	}
+
+	.cd-icon-1 {
+		background-image: url('../assets/icons/planet-icon-1.svg');
+	}
+
+	.cd-icon-2 {
+		background-image: url('../assets/icons/planet-icon-2.svg');
+	}
+
+	.cd-icon-3 {
+		background-image: url('../assets/icons/orbit.svg');
+	}
+
+	.cd-icon-4 {
+		background-image: url('../assets/icons/rocket.svg');
+	}
+
+	// .cd-icon-5 {
+	// 	// background-image: url('../assets/icons/icon-5.svg');
+	// }
+
+	// .cd-icon-6 {
+	// 	// background-image: url('../assets/icons/icon-6.svg');
+	// }
+
+	// .cd-icon-7 {
+	// 	background-image: url('../assets/icons/icon-7.svg');
+	// }
+
+	// .cd-icon-8 {
+	// 	background-image: url('../assets/icons/icon-8.svg');
+	// }
+}
