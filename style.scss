@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+$spacey-black: #0A0A0F;
+$text-color: #FAF9D9;
+
+@import "styles/general";
+@import "styles/header";
+@import "styles/background";
+
+// Flexbox
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+// Ordering
+.intro {
+  order: 1;
+}
+.sidebar { 
+  order: 2;
+}
+.main { 
+  order: 3;
+}
+.requirements p:last-child {
+  text-align: center;
+}
+
