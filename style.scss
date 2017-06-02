@@ -8,6 +8,33 @@ $text-color: #FAF9D9;
 @import "styles/header";
 @import "styles/background";
 
+
+// Archive Icons
+#design-archives {
+  h3 {
+    display: none;
+  }
+  nav ul {
+    list-style: none;
+    
+    li {
+      a {
+        color: transparent;
+      }
+      height: 48px;
+      width: 48px;
+      background-size: cover;
+      display: inline-block;
+    }
+    .next {
+      background-image: url("assets/icons/rocket.svg");
+    }
+    .viewall {
+      background-image: url("assets/icons/orbit.svg");
+    }
+  }
+}
+
 // Flexbox
 .page-wrapper {
   display: flex;
