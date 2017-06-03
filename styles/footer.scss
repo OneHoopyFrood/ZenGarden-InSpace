@@ -1,0 +1,23 @@
+//Footer
+
+[role="contentinfo"] {
+    text-align: center;
+}
+
+.main footer {
+    text-align: center;
+    margin-bottom: 20px;
+
+    a {
+        padding: 8px 20px;
+        background: #e6e6e6;
+        color: $spacey-black;
+        text-decoration: none;
+
+        &:hover {
+            background: #323C47;
+            color: $text-color;
+            text-decoration: none;
+        }
+    }
+}

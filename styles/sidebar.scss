@@ -1,23 +1,28 @@
 // Sidebar
-.sidebar .wrapper h3 {
-    padding-left: 10px;
+.sidebar {
+    .wrapper h3 {
+        padding-left: 10px;
+        text-align: left;
+    }
+
+    &::after {
+        content: '';
+        background-image: url("assets/icons/planet-icon-1.svg");
+        margin: auto 20px;
+        display: block;
+        height: 200px;
+    }
 }
 
 @media only screen and (max-width: $medBreakpoint - 1) {
     .sidebar {
-        h3 {
-            text-align: left;
-        }
         display: flex;
         .wrapper {
             width: 60%;
             margin-right: 8px;
         }
         &::after {
-            content: '';
-            border: 1px solid #ccc;
             width: 40%;
-            margin: 20px;
         }
     }
 }
