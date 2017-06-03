@@ -14,11 +14,6 @@ html {
   background-image: radial-gradient(circle, lighten($spacey-black, 15), $spacey-black);
 }
 
-body {
-  background-color:rgba(10,10,10,0.5);
-  box-shadow: 0 0 15px 10px rgba(10,10,10,0.5);
-}
-
 .preamble {
   p::before {
     content: '';

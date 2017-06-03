@@ -1,0 +1,49 @@
+[role="contentinfo"] {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+@media only screen and (min-width: $medBreakpoint) {
+  body {
+    width: 80%;      
+    margin: auto;
+    box-shadow: 0 0 15px 10px rgba(10,10,10,0.5);
+  }
+  .intro .summary {
+    width: 500px;
+  }
+}
+@media only screen and (min-width: $largeBreakpoint) {
+  body {
+    width: 60%;
+  }
+}
+
+// Archive Icons
+#design-archives {
+  h3 {
+    display: none;
+  }
+  nav ul {
+    list-style: none;
+    
+    li {
+      a {
+        color: transparent;
+      }
+      height: 48px;
+      width: 48px;
+      background-size: cover;
+      display: inline-block;
+    }
+    .next {
+      background-image: url("assets/icons/rocket.svg");
+    }
+    .viewall {
+      background-image: url("assets/icons/orbit.svg");
+    }
+  }
+}

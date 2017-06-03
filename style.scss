@@ -1,56 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Arvo');
 
-$spacey-black: #0A0A0F;
-$text-color: #FAF9D9;
+$spacey-black: #0F1E2C;
+$text-color: #F4F4EA;
+
+$largeBreakpoint: 1200px;
+$medBreakpoint: 680px;
 
 @import "styles/general";
-@import "styles/header";
 @import "styles/background";
-
-
-// Archive Icons
-#design-archives {
-  h3 {
-    display: none;
-  }
-  nav ul {
-    list-style: none;
-    
-    li {
-      a {
-        color: transparent;
-      }
-      height: 48px;
-      width: 48px;
-      background-size: cover;
-      display: inline-block;
-    }
-    .next {
-      background-image: url("assets/icons/rocket.svg");
-    }
-    .viewall {
-      background-image: url("assets/icons/orbit.svg");
-    }
-  }
-}
-
-// Flexbox
-.page-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-// Ordering
-.intro {
-  order: 1;
-}
-.sidebar { 
-  order: 2;
-}
-.main { 
-  order: 3;
-}
-.requirements p:last-child {
-  text-align: center;
-}
-
+@import "styles/header";
+@import "styles/sidebar";
+@import "styles/structure";

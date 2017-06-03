@@ -1,0 +1,49 @@
+// Sidebar
+.sidebar .wrapper h3 {
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: $medBreakpoint - 1) {
+    .sidebar {
+        h3 {
+            text-align: left;
+        }
+        display: flex;
+        .wrapper {
+            width: 60%;
+            margin-right: 8px;
+        }
+        &::after {
+            content: '';
+            border: 1px solid #ccc;
+            width: 40%;
+            margin: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width: $medBreakpoint) {
+    .sidebar {
+        position: absolute;
+        right: auto;
+        margin-left: 55%;
+        top: 352px;
+        padding: 0;
+        width: 20%;
+    }
+    .preamble,
+    .explanation,
+    .participation,
+    .benefits,
+    .requirements,
+    footer {
+        width: 65%;
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: $largeBreakpoint) {
+    .sidebar {
+        margin-left: 40%;
+    }
+}
