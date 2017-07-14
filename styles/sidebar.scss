@@ -8,6 +8,7 @@
     &::after {
         content: '';
         background-image: url("assets/icons/planet-icon-1.svg");
+        background-repeat: no-repeat;
         margin: auto 20px;
         display: block;
         height: 200px;
